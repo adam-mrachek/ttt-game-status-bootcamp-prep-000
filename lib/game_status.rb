@@ -50,6 +50,6 @@ def winner(board)
   if won?(board)
     return board[winning_combo[0]]
   else
-    false
+    nil
   end
 end
