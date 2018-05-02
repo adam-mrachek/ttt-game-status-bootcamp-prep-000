@@ -26,7 +26,7 @@ def won?(board)
       return win_combination
     end
   end
-  
+
   empty_board = board.any? { |position| position == "X" || position == "O" }
   if empty_board
     return false
